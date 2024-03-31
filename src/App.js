@@ -4,6 +4,8 @@ import Header from './components/Header';
 import CoinPage from './pages/CoinPage';
 import { makeStyles } from '@material-ui/core';
 import Homepage from './pages/HomePage';
+import { Buffer } from 'buffer';
+global.Buffer = Buffer;
 
 function App() {
   const useStyles = makeStyles(() => ({
